@@ -40,3 +40,12 @@ To demonstrate functionality for multiple layered filters, the image below shows
 
 ## Summary
 
+- Unfortunately, this build has a few annoying limitations:
+    - The search function is case sensitive while entering filters like state and city.  If the user doesn't leave their entry in lowercase, the filters won't produce any results at all.
+    - Hitting "enter" while entering filter information will not execute the filter, but rather reset the page.
+
+- Recommendations for future builds:
+    - Add functionality to expand a search radius around an entered city.  It may interest users to know about sightings close by to specific sighting they've searched.
+    - Add drop down menus for certain search filters.  If, for example, there are only two countries that appear in our data, it would be best to let the user select them from a drop down menu rather than forcing them to type the input. A similar drop down with a dynamic "calendar-style" menu for the date filter could add a degree of polish and user-friendliness.
+    - Correct keyboard input so that "enter" will execute any filters that the user has entered.
+    - A dynamic map window with pinned locations of sightings could help the user visualize the distribution of sightings.
